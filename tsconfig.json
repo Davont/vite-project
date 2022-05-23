@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // "incremental": true,                              /* 允许增量编译，有助于加快编译速度 */
+    "target": "ESNEXT",                                  /* 直接输出为最新的 ES 标准*/
+    "module": "ESNext",                                /* 面向未来的 ESM 模块化 */
+    "allowJs": true,                                  /* 允许编译 JavaScript 文件 */
+    "checkJs": true,                                  /* E允许编译 JavaScript 文件 */
+    "jsx": "react-jsx",                                /* Specify what JSX code is generated. */
+    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "strict": true,                                      /* 启用所有严格类型检查选项 */
+    "moduleResolution": "node",                       /* 将模块解析模式设为 Node.js, 会先到node_modules目录去查找*/
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                             /* 支持使用import d from 'cjs'的方式引入commonjs包 */
+    "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+    "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+    "skipLibCheck": true,                                 /* 跳过所有声明文件的类型检查, 减少编译时间 */
+    "forceConsistentCasingInFileNames": true,            /* 设置为true时，将强制区分大小写。默认为false。*/
+    "isolatedModules":true,
+
+
+    "resolveJsonModule": true,                        /* 允许导入 json 文件 */
+    "removeComments": true,                           /* 删除编译后所有的注释*/
+    // "noEmit": true,                                   /* 不生成输出文件 */
+    "noFallthroughCasesInSwitch": true,               /* 报告 switch 语句的 fallthrough 错误。（即，不允许 switch 的 case 语句贯穿）*/
+
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
